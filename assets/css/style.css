@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+h1{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+h2{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.your{
+    top: 550px
+}
+
+.comp{
+    top: 150px
+}
+
+
+.computer{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #89ffe1;
+}
+
+.user{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #89fbff;
+}
+
+.rock{
+    background-color: rgb(142, 255, 142);
+}
+
+.paper{
+    background-color: rgb(116, 116, 255);
+}
+
+.scissor{
+    background-color: rgb(253, 138, 138);
+}
