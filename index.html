@@ -9,7 +9,8 @@
 </head>
 <body>
     <h1>Choose wisely</h1>
-    <h2 class="comp">Computer Choice</h2>
+    <h2 class="comp">Computer Choice <br> (Not Clickable)</h2>
+    <p id="score">Score: 0W 0T 0L</p>
     <div class="computer">
         <button class="rock" id="compRock">Rock</button>
         <button class="paper" id="compPaper">Paper</button>
@@ -17,9 +18,9 @@
     </div>
     <h2 class="your">Your Choice</h2>
     <div class="user">
-        <button class="rock" id="userRock">Rock</button>
-        <button class="paper" id="userPaper">Paper</button>
-        <button class="scissor" id="userScissor">Scissor</button>
+        <button onclick="choose('rock')" class="rock" id="userRock">Rock</button>
+        <button onclick="choose('paper')" class="paper" id="userPaper">Paper</button>
+        <button onclick="choose('scissor')" class="scissor" id="userScissor">Scissor</button>
     </div>
 </body>
 <script src="./script.js"></script>

@@ -21,6 +21,10 @@ h2{
     text-align: center;
 }
 
+p{
+    position: absolute;   
+}
+
 .your{
     top: 550px
 }
@@ -50,12 +54,15 @@ h2{
 
 .rock{
     background-color: rgb(142, 255, 142);
+    display: initial;
 }
 
 .paper{
     background-color: rgb(116, 116, 255);
+    display: initial;
 }
 
 .scissor{
     background-color: rgb(253, 138, 138);
+    display: initial;
 }
